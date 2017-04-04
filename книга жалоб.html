@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<title>Жалобная книга</title>
+		<style type="text/css">
+			.header{text-align: center;
+				background-color: yellow;}
+			textarea{text-align: center;}
+			textarea:focus{border-color: #0088cc;}
+			input[type = "submit"]{border-color: #0088cc;}
+			.forma{background-color: red;}
+			.common{background-color: red;
+				width: 1100px;
+				float: right;}
+			footer{background-color: yellow;
+				float: bottom;}
+			.menu{width: 200px;
+				height: 410px;
+				float: left;
+				text-align: center;
+				background-color: yellow;}
+
+		</style>
+	</head>
+	<body>
+		<div class = "common">
+			<div class = "header">
+				<h1>Жалобная книга</h1>
+			</div>
+			<center>
+				<div class = "forma">
+					<form action="http://localhost:8888/" method="post">
+						<textarea name="sent" rows= "20" cols="30">Добавьте жалобу сюда</textarea>
+						<br><input type="submit" name="sent" value = "Отправить жалобу"> </br>
+					</form>
+				</div>
+			</center>
+		</div>
+		<div class="menu"><h2>Меню<h2></div>
+		<footer>верстка Анна Трофимова</footer>
+	</body>
+
+</html> 
